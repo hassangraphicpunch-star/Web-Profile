@@ -1,0 +1,135 @@
+/* General Page Styling */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* Main Container */
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Profile Card */
+
+.profile-card {
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Profile Header */
+
+.profile-header {
+    text-align: center;
+    background-color: #2563eb;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.profile-header h1 {
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+
+.profile-header p {
+    font-size: 18px;
+}
+
+/* Sections */
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #2563eb;
+    font-size: 25px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 6px;
+}
+
+section p {
+    margin-bottom: 12px;
+    color: #475569;
+}
+
+/* Skills */
+
+.skills {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.skills li {
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+    padding: 12px;
+    color: #1d4ed8;
+    font-weight: bold;
+}
+
+/* Contact Link */
+
+a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 20px 12px;
+    }
+
+    .profile-card {
+        padding: 20px;
+    }
+
+    .profile-header {
+        padding: 25px 15px;
+    }
+
+    .profile-header h1 {
+        font-size: 30px;
+    }
+
+    .profile-header p {
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+
+    .skills {
+        grid-template-columns: 1fr;
+    }
+}

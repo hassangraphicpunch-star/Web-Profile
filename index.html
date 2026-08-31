@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-6 py-6 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold">
+                My Personal Profile
+            </h1>
+            <p class="mt-2 text-blue-100">
+                Web Developer | Graphic Designer | Technology Enthusiast
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-6 py-10">
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- Profile Card -->
+            <section class="bg-white rounded-2xl shadow-md p-6 text-center">
+
+                <img src="profile.png" alt="Profile Picture"
+                    class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-blue-500">
+
+                <h2 class="text-2xl font-bold mt-5">
+                    Hassan Ali
+                </h2>
+
+                <p class="text-gray-500 mt-2">
+                    Web Developer & Graphic Designer
+                </p>
+
+                <a href="mailto:example@email.com"
+                    class="inline-block mt-5 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition">
+                    Contact Me
+                </a>
+
+            </section>
+
+            <!-- About Me -->
+            <section class="md:col-span-2 bg-white rounded-2xl shadow-md p-6">
+
+                <h2 class="text-2xl font-bold text-blue-600 mb-4">
+                    About Me
+                </h2>
+
+                <p class="leading-7 text-gray-600">
+                    Hello! My name is Hassan. I am interested in web development,
+                    graphic design, and modern technology. I enjoy creating
+                    professional and responsive websites while continuously
+                    learning new skills.
+                </p>
+
+                <!-- Interests -->
+                <h2 class="text-2xl font-bold text-blue-600 mt-8 mb-4">
+                    My Interests
+                </h2>
+
+                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <li class="bg-blue-50 p-3 rounded-lg">
+                        🌐 Web Development
+                    </li>
+
+                    <li class="bg-blue-50 p-3 rounded-lg">
+                        🎨 Graphic Design
+                    </li>
+
+                    <li class="bg-blue-50 p-3 rounded-lg">
+                        📱 Digital Marketing
+                    </li>
+
+                    <li class="bg-blue-50 p-3 rounded-lg">
+                        💻 New Technologies
+                    </li>
+                </ul>
+
+            </section>
+
+        </div>
+
+        <!-- Skills -->
+        <section class="bg-white rounded-2xl shadow-md p-6 mt-8">
+
+            <h2 class="text-2xl font-bold text-blue-600 mb-5">
+                My Skills
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+
+                <div class="border rounded-xl p-5 text-center hover:shadow-md transition">
+                    <h3 class="font-semibold text-lg">HTML & CSS</h3>
+                    <p class="text-gray-500 mt-2">Web Structure & Design</p>
+                </div>
+
+                <div class="border rounded-xl p-5 text-center hover:shadow-md transition">
+                    <h3 class="font-semibold text-lg">JavaScript</h3>
+                    <p class="text-gray-500 mt-2">Interactive Websites</p>
+                </div>
+
+                <div class="border rounded-xl p-5 text-center hover:shadow-md transition">
+                    <h3 class="font-semibold text-lg">Graphic Design</h3>
+                    <p class="text-gray-500 mt-2">Creative Visual Design</p>
+                </div>
+
+                <div class="border rounded-xl p-5 text-center hover:shadow-md transition">
+                    <h3 class="font-semibold text-lg">Web Development</h3>
+                    <p class="text-gray-500 mt-2">Responsive Websites</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Links -->
+        <section class="bg-white rounded-2xl shadow-md p-6 mt-8">
+
+            <h2 class="text-2xl font-bold text-blue-600 mb-5">
+                Useful Links
+            </h2>
+
+            <div class="flex flex-col sm:flex-row gap-4">
+
+                <a href="https://www.linkedin.com/" target="_blank"
+                    class="bg-blue-600 hover:bg-blue-700 text-white text-center px-6 py-3 rounded-lg transition">
+                    LinkedIn
+                </a>
+
+                <a href="https://github.com/" target="_blank"
+                    class="bg-gray-800 hover:bg-gray-900 text-white text-center px-6 py-3 rounded-lg transition">
+                    GitHub
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-6 mt-10">
+        <p>
+            © 2026 Hassan Ali. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+
+</html>
